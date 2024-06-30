@@ -90,7 +90,7 @@ const getPhotoUrl = async(location) =>{
   } catch (error) {
     console.log(error);
     return {
-      photoErrMsg: 'Failed to fetch photo data'
+      photoErrMsg: 'Cannot found photo of your place'
     }
   }
 }
